@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cold Coffee Delight</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cold Coffee Delight</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Cold Coffee Delight!</h2>
+        <img src="cofee.webp" alt="Cold Coffee" class="featured-image">
+        <p>Your ultimate destination for the best cold coffee recipes and tips.</p>
+        <button id="show-recipe">Show Recipe</button>
+        <div id="recipe" class="hidden">
+            <h3>Classic Iced Coffee</h3>
+            <img src="cofee.webp" alt="Iced Coffee" class="recipe-image">
+            <p>Ingredients:</p>
+            <ul>
+                <li>1 cup brewed coffee</li>
+                <li>Ice cubes</li>
+                <li>Milk or cream</li>
+                <li>Sugar or sweetener (optional)</li>
+            </ul>
+            <p>Instructions:</p>
+            <ol>
+                <li>Brew a strong cup of coffee and let it cool.</li>
+                <li>Fill a glass with ice cubes.</li>
+                <li>Pour the coffee over the ice.</li>
+                <li>Add milk or cream to taste.</li>
+                <li>Add sugar or sweetener if desired.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="cofee.webp" alt="About Us" class="about-image">
+        <p>We are passionate about cold coffee and strive to bring you the best recipes and tips.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Feel free to reach out to us with any questions or comments!</p>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cold Coffee Delight. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
